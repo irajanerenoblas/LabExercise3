@@ -169,7 +169,7 @@
 
                     <?php } ?>
         <?php
-        if (!empty($_POST) && isset($_POST['registration']) && $_POST['registration'] === "register") {
+        if (!empty($_POST) && isset($_POST['registration']) && $_POST['registration'] === "Registration") {
 
             $imageTmpName = $_FILES['imageFile']['tmp_name'];
             $imageName = $_FILES['imageFile']['name'];
